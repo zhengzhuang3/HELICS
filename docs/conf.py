@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
 # HELICS-src documentation build configuration file, created by
@@ -77,8 +77,6 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
     'sphinx.ext.napoleon',
-    'nbsphinx',
-    'IPython.sphinxext.ipython_console_highlighting',
     'breathe',
 ]
 
@@ -220,7 +218,7 @@ man_pages = [(master_doc, 'helics-src', 'HELICS-src Documentation', [author], 1)
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'HELICS-src', 'HELICS-src Documentation', author, 'HELICS-src', 'One line description of project.', 'Miscellaneous'),
+    (master_doc, 'HELICS-src', 'HELICS-src Documentation', author, 'HELICS-src', 'Hierarchical Engine for Large-Scale Infrastructure Co-Simulation', 'Miscellaneous'),
 ]
 
 def setup(app):
